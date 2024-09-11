@@ -7,6 +7,7 @@ function fetchUsersFromDatabase() {
   return []; // Simulando um retorno inesperado de array vazio
 }
 
+
 app.get('/users', (req, res) => {
   const users = fetchUsersFromDatabase();
 
